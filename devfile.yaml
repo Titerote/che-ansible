@@ -39,6 +39,10 @@ components:
     type: chePlugin
     reference: https://raw.githubusercontent.com/sunix/che-ansible/master/plugin/meta.yaml
 
+  - alias: vim-plugin
+    type: chePlugin
+    reference: https://raw.githubusercontent.com/mrjonleek/che-plugin-vim/master/meta.yaml
+
   - id: redhat/vscode-yaml/latest
     type: chePlugin
 
